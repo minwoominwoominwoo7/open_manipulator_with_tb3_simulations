@@ -31,8 +31,12 @@
        <param name="tf_prefix" value="$(arg use_robot_name)" />
     </node>
 
+    <!--<node pkg="gazebo_ros" type="spawn_model" name="urdf_spawner" respawn="false" output="screen"
+       args="-urdf -model $(arg use_robot_name) -x 1.135 -y 0.379 -Y -0.143 -J joint2 -1.5707 -J joint3 1.37 -J joint4 0.0 -param robot_description"/>-->
+
     <node pkg="gazebo_ros" type="spawn_model" name="urdf_spawner" respawn="false" output="screen"
        args="-urdf -model $(arg use_robot_name) -x 0.0 -y 0.0 -Y 0 -J joint2 -1.5707 -J joint3 1.37 -J joint4 0.2258 -param robot_description"/>
+
   </group>
 
   <!-- ros_control robotis manipulator launch file -->

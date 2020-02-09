@@ -32,30 +32,52 @@
     </physics>
 
     <!-- Load world -->
+
     <include>
       <pose>0 0 0 0 0 -1.57</pose>
       <uri>model://turtlebot3_home_service/course</uri>
     </include>
 
     <include>
-      <pose frame=''>0.971849 0.066009 0.175373 0 0 0</pose>
-      <uri>model://mnp_object0</uri>      
+      <pose frame=''>1.285 0.39 0.1 0 0 1.57</pose>
+      <uri>model://turtlebot3_home_service/armarker00</uri>      
     </include>
 
     <include>
-      <pose frame=''>0.971849 -0.214057 0.175373 0 0 0</pose>
-      <uri>model://mnp_object1</uri>      
+      <pose frame=''>1.285 0.13 0.1 0 0 1.57</pose>
+      <uri>model://turtlebot3_home_service/armarker01</uri>      
+    </include>    
+
+    <include>
+      <pose frame=''>1.285 -0.13 0.1 0 0 1.57</pose>
+      <uri>model://turtlebot3_home_service/armarker02</uri>      
     </include>
 
     <include>
-      <pose frame=''>0.971849 -0.5212446 0.175373 0 0 0</pose>
-      <uri>model://mnp_object2</uri>      
-    </include>
+      <pose frame=''>1.285 -0.39 0.1 0 0 1.57</pose>
+      <uri>model://turtlebot3_home_service/armarker03</uri>      
+    </include>    
 
     <include>
-      <pose frame=''>0.971849 -0.763 0.175373 0 0 0</pose>
-      <uri>model://mnp_object3</uri>      
-    </include>
+      <pose frame=''>1.35 0.39 0.2 0 0 0</pose>
+      <uri>model://turtlebot3_home_service/object0</uri>      
+    </include>   
+
+    <include>
+      <pose frame=''>1.35 0.13 0.2 0 0 0</pose>
+      <uri>model://turtlebot3_home_service/object1</uri>      
+    </include>  
+
+    <include>
+      <pose frame=''>1.35 -0.13 0.2 0 0 0</pose>
+      <uri>model://turtlebot3_home_service/object2</uri>      
+    </include>  
+
+    <include>
+      <pose frame=''>1.35 -0.39 0.2 0 0 0</pose>
+      <uri>model://turtlebot3_home_service/object3</uri>      
+    </include>     
+
 
     <light name='user_directional_light_0' type='directional'>
       <pose frame=''>-4.454953 0.018698 1.796531 0 -1.344354 0</pose>

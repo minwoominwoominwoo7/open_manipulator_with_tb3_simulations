@@ -2,7 +2,7 @@
 <sdf version='1.6'>
   <model name='armarker00'>
     <link name='link'>
-      <pose frame=''>0 0 0.1 0 -0 0</pose>
+      <pose frame=''>0 0 0 0 0 0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -13,7 +13,7 @@
           <iyz>0</iyz>
           <izz>0.166667</izz>
         </inertia>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 0 0</pose>
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
@@ -31,14 +31,14 @@
             <name>armarker00</name>
           </script>
         </material>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 0 0</pose>
         <cast_shadows>1</cast_shadows>
         <transparency>0</transparency>
       </visual>
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>0 0 0 0 0 0</pose>
         <geometry>
           <box>
             <size>0.09 0.01 0.09</size>
